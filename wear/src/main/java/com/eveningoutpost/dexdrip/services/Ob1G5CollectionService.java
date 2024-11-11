@@ -409,7 +409,7 @@ public class Ob1G5CollectionService extends G5BaseService {
         }
     }
 
-    private void resetState() 
+    private void resetState() {
         UserError.Log.e(TAG, "Resetting sequence state to INIT");
         changeState(INIT);
     }
